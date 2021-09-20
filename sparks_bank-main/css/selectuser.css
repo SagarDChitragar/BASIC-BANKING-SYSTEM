@@ -1,0 +1,64 @@
+.contents{
+        
+    padding-top: 280px;
+    width: inherit;
+margin-right: -375px;
+margin-left: 360px;
+
+}
+table{
+letter-spacing: 1.2px;
+
+}
+
+td{
+
+
+text-align: center;
+}
+
+button{
+border:none;
+background: #d9d9d9;
+}
+
+@media only screen and (orientation: portrait){
+*{
+    letter-spacing: 1px;
+}
+}
+.container{
+    position:absolute;
+    
+}
+.col{
+    top: 225px;
+left: 33%;
+
+}
+.text{
+left: 75%;
+top: 11%;
+color: black;
+position: absolute;
+
+}
+
+
+
+table.table-hover > thead > tr > th{
+border-bottom:1px solid black;
+border-top:1px blue;
+
+} 
+table.table-hover > tbody > tr > td{
+border-top:1px solid black;
+border-bottom:1px solid black;
+}
+.icon{
+position: absolute;
+width: auto;
+padding-left: 3%;
+padding-top: 1%;
+z-index: 10;
+}
